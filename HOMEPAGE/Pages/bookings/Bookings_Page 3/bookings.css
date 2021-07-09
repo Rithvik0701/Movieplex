@@ -1,0 +1,185 @@
+* {
+    margin:0;
+    
+}
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.header-container {
+    height: 12vh;
+    width: 100%;
+    background-image: linear-gradient(500deg, rgb(230, 4, 4), rgb(104, 0, 0), rgb(27, 0, 0));
+    display: flex;
+    justify-content: space-between;
+}
+.sitename {
+    margin-left: 0.5em;
+    font-size: 4em;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: default;
+
+}
+.profile {
+    width: 8em;
+    padding-top: 0.1em;
+    text-align: center;
+    margin-top: 2em;
+    margin-right: 1em;
+    margin-bottom:0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
+    color: white; 
+    display: flex;
+    justify-content: space-between;                                                                                  
+}
+.profile:hover {
+
+    transform: scale(1.2);
+    transition:0.5s;
+}
+
+.page-height {
+    height: 88vh;
+    margin: 0;
+}
+.sidebar {
+    height: 87.8vh;
+    width: 4vw;
+    background: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+.sidebar-icons {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 5vh;
+    
+}
+.sidebar-texts-container {
+    position: absolute;
+}
+
+.sidebar-texts {
+    color: rgba(92, 33, 33,0);
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 4.4vh;
+    width: 4em;
+    /* text-align: center; */
+    border-radius:20px;
+    cursor: pointer;
+    padding-left: 2.1em;
+    
+
+}
+.sidebar-texts:hover {
+    color:rgb(255, 255, 255);
+    
+    transform: translateX(80px);
+    transition: 0.2s;
+}
+
+.content {
+    height: 87.8vh;
+    width: 96vw;
+    background-image: linear-gradient(500deg, rgb(0, 0, 0), rgb(24, 0, 0), rgb(49, 0, 0));
+    position: absolute;
+    padding-left: 4vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    align-items: center;
+}
+.main-content {
+    height: 70%;
+    width:70%;
+    background-color: antiquewhite;
+    cursor: default;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    
+    background: rgba( 241, 59, 76, 0.40 );
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+/* 
+    background: #ff7a7a;
+    box-shadow:  22px 22px 39px #300000,
+             -22px -22px 39px #db4343; */
+   
+    padding: 20px;
+    text-align: center;
+}
+.text-header {
+    font-size:2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+}
+.bookings_data {
+    display:flex;
+    background-color:whitesmoke;
+    color:black;
+    min-height: 80px;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.M_name {
+    font-size:2em;
+    font-family: roboto, sans-serif;
+    text-align: left;
+    width:35%;
+    margin: 20px;
+    
+}
+.M_seats {
+    font-size:1.5em;
+    font-family: roboto, sans-serif;
+
+    width:20%;
+    
+}
+.M_date {
+    font-size:1.5em;
+    font-family: roboto, sans-serif;
+
+    width:20%;
+    
+}
+.M_rate {
+    font-size:2em;
+    font-family: roboto, sans-serif;
+    background-color:rgb(53, 12, 92);
+    color:aliceblue;
+    width:15%;
+    margin: 3%;
+    height: 50%;
+    padding:10px;
+    text-align: center;
+    border-radius:20px;
+}
+.M_rate:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
